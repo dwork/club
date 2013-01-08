@@ -1,0 +1,96 @@
+name = club
+core = 7.x
+description =  Network Club distribution
+
+; Core
+dependencies[] = book
+dependencies[] = contact
+
+dependencies[] = block
+dependencies[] = color
+dependencies[] = comment
+dependencies[] = contextual
+dependencies[] = dashboard
+dependencies[] = help
+dependencies[] = image
+dependencies[] = list
+dependencies[] = menu
+dependencies[] = number
+dependencies[] = options
+dependencies[] = path
+dependencies[] = taxonomy
+dependencies[] = dblog
+dependencies[] = search
+dependencies[] = shortcut
+dependencies[] = overlay
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = rdf
+
+
+; Contrib
+dependencies[] = admin
+dependencies[] = admin_menu
+dependencies[] = boxes
+dependencies[] = calendar
+dependencies[] = coder
+dependencies[] = context
+dependencies[] = context_ui
+dependencies[] = ctools
+; dependencies[] = devel
+; dependencies[] = diff
+dependencies[] = email
+dependencies[] = entityreference
+dependencies[] = eva
+dependencies[] = fancy_login
+dependencies[] = features
+dependencies[] = field_permissions
+; dependencies[] = hierarchical_select
+; dependencies[] = hs_taxonomy
+; dependencies[] = hs_taxonomy_views
+dependencies[] = image
+dependencies[] = libraries
+dependencies[] = logintoboggan
+dependencies[] = mailsystem
+dependencies[] = markdown
+dependencies[] = mimemail
+dependencies[] = nice_menus
+dependencies[] = node_clone
+dependencies[] = node_reference
+dependencies[] = nodereference_url
+dependencies[] = openid
+dependencies[] = openidadmin
+dependencies[] = quicktabs
+dependencies[] = registration
+dependencies[] = registration_views
+dependencies[] = rules
+dependencies[] = simplenews
+dependencies[] = smtp
+dependencies[] = strongarm
+dependencies[] = views
+dependencies[] = views_php
+dependencies[] = views_ui
+dependencies[] = views_fluid_grid
+dependencies[] = views_slideshow
+dependencies[] = views_slideshow_cycle
+
+; Custom Features (levelten)
+
+dependencies[] = seotools
+dependencies[] = chart
+dependencies[] = socialmedia
+dependencies[] = widgets
+
+; Rotary Features
+
+dependencies[] = rotary_projects_membership
+dependencies[] = club_base
+dependencies[] = club_project
+dependencies[] = club_attendance
+dependencies[] = club_committee
+dependencies[] = club_events
+dependencies[] = club_newsletter
+dependencies[] = club_views
+dependencies[] = youtube_field
+dependencies[] = image_gallery
+
