@@ -68,6 +68,7 @@ dependencies[] = simplenews
 dependencies[] = smtp
 dependencies[] = strongarm
 dependencies[] = views
+dependencies[] = views_calc
 dependencies[] = views_php
 dependencies[] = views_ui
 dependencies[] = views_fluid_grid
