@@ -30,17 +30,6 @@ function club_block_setup() {
       'pages' => '',
       'cache' => -1,
     ),
-    array(
-      'module' => 'club_attendance',
-      'delta' => 'Attendance',
-      'theme' => $default_theme,
-      'status' => 1,
-      'weight' => 10,
-      'region' => 'sidebar_first',
-      'pages' => '',
-      'cache' => -1,
-    ),
-
   );
   $query = db_insert('block')->fields(array('module', 'delta', 'theme', 'status', 'weight', 'region', 'pages', 'cache'));
   foreach ($values as $record) {
@@ -117,6 +106,11 @@ function club_profile_setup() {
     club_create_taxonomy_term_custom('Makeup', 'attendance', 'Makeup');
     club_create_taxonomy_term_custom('Regular Meeting', 'attendance', 'Present');
 
+        // Event
+	club_create_taxonomy_term('Meeting', 'event_type');
+	club_create_taxonomy_term('Committee Meeting', 'event_type');
+	club_create_taxonomy_term('Social', 'event_type');
+        
 }
 /*
  * Create taxonomy vocabulary
