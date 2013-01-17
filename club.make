@@ -15,7 +15,7 @@ projects[mayo][subdir] = contrib
 # Override
 projects[features][subdir] = contrib
 projects[features][version] = "1.0"
-projects[views][version] = "3.3"
+projects[views][version] = "3.5"
 projects[ctools][version] = "1.2"
 
 projects[omega][subdir] = contrib
