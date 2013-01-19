@@ -230,9 +230,6 @@ projects[image_gallery][version] = "1.0-beta1"
 projects[token][version] = "1.4"
 projects[token][subdir] = "contrib"
 
-projects[views_calc][version] = "1.0"
-projects[views_calc][subdir] = "contrib"
-
 projects[views_php][version] = "1.x-dev"
 projects[views_php][subdir] = "contrib"
 
