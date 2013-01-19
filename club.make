@@ -84,6 +84,9 @@ projects[cck_phone][subdir] = "contrib"
 projects[context][version] = "3.0-beta6"
 projects[context][subdir] = "contrib"
 
+projects[css_injector][version] = "1.7"
+projects[css_injector][subdir] = "contrib"
+
 projects[date][version] = "2.6"
 projects[date][subdir] = "contrib"
 
